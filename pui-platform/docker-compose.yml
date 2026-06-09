@@ -1,15 +1,9 @@
-version: '3.9'
-
 services:
   backend:
     build: ./backend
-    ports:
-      - "3000:3000"
     environment:
       - NODE_ENV=development
     env_file: ./backend/.env
-    volumes:
-      - ./certs:/certs:ro
     depends_on:
       postgres:
         condition: service_healthy
@@ -22,6 +16,8 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    volumes:
+      - ./certs:/etc/nginx/certs:ro
     depends_on:
       - backend
     restart: unless-stopped

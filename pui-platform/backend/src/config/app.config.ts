@@ -4,5 +4,5 @@ import { envValidationSchema } from './env.validation';
 export const AppConfigModule = ConfigModule.forRoot({
   isGlobal: true,
   validationSchema: envValidationSchema,
-  validationOptions: { allowUnknown: false, abortEarly: true },
+  validationOptions: { allowUnknown: true, abortEarly: true },
 });
