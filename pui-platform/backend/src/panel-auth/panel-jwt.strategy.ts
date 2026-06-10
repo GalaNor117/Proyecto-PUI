@@ -9,7 +9,7 @@ export class PanelJwtStrategy extends PassportStrategy(Strategy, 'jwt-panel') {
     super({
       jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
       ignoreExpiration: false,
-      secretOrKey: config.get<string>('PANEL_JWT_SECRET'),
+      secretOrKey: config.getOrThrow<string>('PANEL_JWT_SECRET'),
     });
   }
 
