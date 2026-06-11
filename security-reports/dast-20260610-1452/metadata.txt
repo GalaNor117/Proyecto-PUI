@@ -1,0 +1,14 @@
+==========================================
+DAST - Dynamic Application Security Testing
+==========================================
+Proyecto:     Plataforma PUI - Finkapital
+Servicio:     Integración Institución Diversa con PUI v2.3.0
+Target:       https://pui.finkapital.net
+Componentes:  Todos los endpoints expuestos (panel + webhooks PUI)
+Rama:         dev
+Commit:       ce792c2fa53f49b567ee77def3661c09551f8fd4
+Fecha inicio: 2026-06-10 14:53:42
+Entorno:      Productivo
+Herramienta:  OWASP ZAP (Zed Attack Proxy) - Full Scan
+Cobertura:    OWASP Top 10, inyección, manipulación parámetros, autenticación
+Autenticación: Bearer JWT (panel) capturado de /panel/login
