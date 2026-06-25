@@ -1,0 +1,14 @@
+==========================================
+SCA - Software Composition Analysis
+==========================================
+Proyecto:     Plataforma PUI - Finkapital
+Servicio:     Integración Institución Diversa con PUI v2.3.0
+Componentes:  backend (NestJS), frontend (Angular)
+Repositorio:  https://github.com/GalaNor117/Proyecto-PUI
+Rama:         
+Commit:       
+Commit corto: 
+Fecha:        2026-06-10 09:38:23
+Entorno:      Productivo (https://pui.finkapital.net)
+Herramienta:  npm audit + OWASP Dependency-Check
+==========================================

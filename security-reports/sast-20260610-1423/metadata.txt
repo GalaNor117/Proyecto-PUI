@@ -1,0 +1,14 @@
+==========================================
+SAST - Static Application Security Testing
+==========================================
+Proyecto:     Plataforma PUI - Finkapital
+Servicio:     Integración Institución Diversa con PUI v2.3.0
+Componentes:  backend (NestJS 11 / TypeScript), frontend (Angular 19 / TypeScript)
+Repositorio:  https://github.com/GalaNor117/Proyecto-PUI
+Rama:         dev
+Commit:       ce792c2fa53f49b567ee77def3661c09551f8fd4
+Commit corto: ce792c2
+Fecha:        2026-06-10 14:24:07
+Entorno:      Productivo (https://pui.finkapital.net)
+Herramienta:  Semgrep (config auto - reglas comunitarias + p/security-audit)
+Reglas:       OWASP Top 10, CWE, secrets, injection, XSS, SQLi, RCE
